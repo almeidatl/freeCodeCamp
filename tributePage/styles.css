@@ -46,6 +46,8 @@ h2{
     font-size: 2rem;
 }
 
+
+
 li{
     list-style: none;
 }
@@ -64,6 +66,7 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: .5rem;
 }
 
 #main{
@@ -73,12 +76,132 @@ img{
     /*Ajusta width para igualar com limite da imagem*/
     max-width: 1024px;
     margin: 0 auto;
-
     text-align: justify;
+
     
 }
 
 strong{
     color: #EB5E28;
+    font-weight: 700;
+    font-family: monospace;
 }
 
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    
+}
+
+
+
+#section-title{
+    text-align: center;
+    
+    
+}
+
+#lifetime-line{
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#quote-container{   
+    max-width: 900px;
+    text-align: center;
+    font-family: var(--fontTitle);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#quote-owner{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: var(--highlight);
+    padding: .5rem;
+    
+}
+
+#quote-owner > a{
+    font-weight: 600;
+}
+
+
+#wiki-link{
+    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--highlight);
+    font-family: var(--fontTitle);
+    font-weight: 700;
+}
+
+@media (max-width: 1024px){
+    #title{
+        text-align: center;
+        font-size: 2.5rem;
+        padding: .5rem;
+    }
+    #img-caption{
+        padding: 0rem 1rem;
+        font-size: .7rem;
+    }
+    #tribute-info{
+        padding: 1rem;
+        
+    }
+    #lifetime-line{
+        font-size: 1rem;
+    }
+    .lifetime-year{
+        font-size: 1.1rem;
+    }
+    
+    #quote-container{
+        padding: 1rem;
+    }
+    #wiki-link{
+        text-align: center;
+    }    
+}
+
+@media (max-width: 422px){
+    #title{
+        text-align: center;
+        font-size: 2.1rem;
+        padding: .5rem;
+    }
+    #sub-title{
+        font-size: 1rem;
+    }
+    #img-caption{
+        padding: 0rem 1rem;
+        font-size: .7rem;
+    }
+    #tribute-info{
+        padding: 1rem;
+        
+    }
+    #section-title{
+        font-size: 1.6rem;
+    }
+    #lifetime-line{
+        font-size: 1rem;
+    }
+    .lifetime-year{
+        font-size: 1.1rem;
+    }
+    
+    #quote-container{
+        padding: 1rem;
+    }
+    #wiki-link{
+        text-align: center;
+    }
+}
