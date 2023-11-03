@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root{
+    /*Fontes*/
+    --fontTitle: 'Poppins', sans-serif;
+    --fontText: 'Roboto', sans-serif;
+    /*Cores*/
+    --bgColor: #fff;
+    --textColor: #252422;
+    --highlight: #EB5E28;
+    --yellow: #e4f120;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    font-size: 16px;
+    font-family: var(--fontText);
+    scroll-behavior: smooth;
+    min-height: 120vh;
+}
+
+body{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+li{
+    text-indent: 0;
+    list-style-type: square;
+}
+
+.block{
+    display: block;
+}
+.indent{
+    
+    text-indent: 4rem;
+}
+
+#navbar{
+    overflow-y: scroll;
+    color: var(--bgColor);
+    height: 100vh;
+    width: 22%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+#nav-header{
+    cursor: help;
+    font-family: var(--fontTitle);
+    font-size: 1.7rem;
+    padding: .5rem;
+    background-color: var(--yellow);
+    color: #443f3c;
+}
+
+#nav-list{
+    
+    
+}
+
+.nav-link{    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #443f3c;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    transition: .18s;
+}
+
+.nav-link:hover{
+    background-color: #EB5E28;
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #EB5E28;
+    color: #fff;
+}
+
+#nav-end{
+    
+    font-size: 1rem;
+    padding: 2rem;
+    font-weight: 100;
+    cursor: crosshair;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+    background-color: var(--yellow);
+    text-decoration: none;
+    
+    color: var(--textColor);
+    transition: .18s;
+}
+
+#main-doc{
+    margin-left: 22%;
+    width: 78%;
+    padding: 1rem;
+}
+
+section{
+    
+}
+
+.main-section{
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    
+}
+
+
+
+.sectionText{
+    text-indent: 2rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+    padding: 1.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#intro-list{
+    margin-left: 1rem;
+}
+
+code{
+    max-width: 80%;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #EB5E28;
+    color: #fff;
+}
+
+@media (max-width:1210px){
+    html{
+        font-size: 15px;
+    }
+}
