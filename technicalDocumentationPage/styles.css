@@ -90,10 +90,11 @@ li{
     text-decoration: none;
     font-size: 1.3rem;
     color: #fff;
-    transition: .18s;
+    transition: .3s;
 }
 
 .nav-link:hover{
+    justify-content: center;
     background-color: #EB5E28;
     color: #fff;
 }
@@ -129,15 +130,17 @@ li{
     padding: 1rem;
 }
 
-section{
-    
-}
 
 .main-section{
     text-align: justify;
     margin-bottom: 1.5rem;
     width: 100%;
     
+}
+
+.main-section header{
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
 
