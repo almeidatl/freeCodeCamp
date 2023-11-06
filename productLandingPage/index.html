@@ -7,27 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Must insert video id="video" somewhere -->
-    <header id="header">
+    <div class="wrapper">
+        <!-- Must insert video id="video" somewhere -->
+        <header id="header">
+            <!--Place logo below-->
+            <div id="header-logo">
+                <img src="" alt="" id="header-img" hidden>
+                <h1 id="logo">All you need is a fan.</h1>
+            </div>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">about</a>
+                <a href="#" class="nav-link">buy</a>
+                <a href="#sayHi" class="nav-link">Say hi!</a>
+            </nav>
+        
+        </header>
 
-        <!--Place logo below-->
-        <div id="header-logo">
-            <img src="" alt="" id="header-img">
-            <h1>All you need is fan.</h1>
-        </div>
+        <section id="signUp">
+            <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+                <label for="email">Wanna know all about these godly itens?</label>
+                <input  type="email" name="email" id="email" placeholder="tell me your email" required>
+                <input class="submitBtn" type="submit" value="Done!" id="submit">
+            </form>
+        </section>
 
-        <nav id="nav-bar">
-            <a href="#" class="nav-link">why</a>
-            <a href="#" class="nav-link">buy</a>
-            <a href="#" class="nav-link">talk</a>
-        </nav>
-                
-    </header>
+        <section id="about">
+        
 
-    <form action="" id="form">
+        </section>
 
-        <input type="email" name="email" id="email" placeholder="type it bro">
+        <section id="buy">
+            <h1>pick your hardware</h1>
 
-    </form>
+            <div class="buyItem">
+                <h3 class="itemTitle">title</h3>
+                <h2 class="itemPrice">$999</h2>
+                <p class="itemDescription"></p>
+            </div>
+
+        </section>
+
+        <section id="sayHi">
+
+
+        </section>
+
+        <footer>
+
+        </footer>
+    </div>
 </body>
 </html>
