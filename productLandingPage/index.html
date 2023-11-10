@@ -7,37 +7,47 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="wrapper">
+    <main>
         <!-- Must insert video id="video" somewhere -->
-        <div class="topPageContainer">
+
+        <section class="container">
+
             <header id="header">
+
                 <!--Place logo below-->
                 <div id="header-logo">
                     <img src="" alt="" id="header-img" hidden>
                     <h1 id="logo">All you need is a fan.</h1>
                 </div>
+
                 <nav id="nav-bar">
                     <a href="#about" class="nav-link">about</a>
                     <a href="#" class="nav-link">buy</a>
                     <a href="#sayHi" class="nav-link">Say hi!</a>
                 </nav>
+
             
             </header>
-            <section id="signUp">
-                <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+
+            <section id="signUp" class="container">
+
+                <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" class="container">
                     <label for="email">Wanna know all about these godly instruments?</label>
                     <input  type="email" name="email" id="email" placeholder="tell me your email" required>
                     <input class="submitBtn" type="submit" value="Done!" id="submit">
                 </form>
-            </section>
-        </div>
 
-        <section id="about">
-        
+            </section>
 
         </section>
 
-        <section id="buy">
+        <section id="about" class="container">
+            <h1>Why should you buy from us?</h1>
+
+        </section>
+
+        <section id="buy" class="container">
+
             <h1>pick your hardware</h1>
 
             <div class="buyItem">
@@ -48,14 +58,16 @@
 
         </section>
 
-        <section id="sayHi">
+        <section id="sayHi" class="container">
 
 
         </section>
 
         <footer>
-
+            <p>
+                Developed by <a href="#"><strong>Thalissona Almeida</strong></a>
+            </p>
         </footer>
-    </div>
+    </main>
 </body>
 </html>

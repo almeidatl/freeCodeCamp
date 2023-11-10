@@ -25,4 +25,46 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 16px;
+    font-family: var(--fontText);
+    color: var(--textColor);
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper{
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
