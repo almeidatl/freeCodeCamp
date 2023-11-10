@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <main>
-        <!-- Must insert video id="video" somewhere -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main>
+            <!-- Must insert video id="video" somewhere -->
 
-        <section class="container">
+            <section class="container">
+                <header id="header">
+                    <!--Place logo below-->
+                    <div id="header-logo">
+                        <img src="" alt="" id="header-img" hidden />
+                        <h1 id="logo">All you need is a fan.</h1>
+                    </div>
 
-            <header id="header">
+                    <nav id="nav-bar">
+                        <a href="#about" class="nav-link">about</a>
+                        <a href="#buy" class="nav-link">buy</a>
+                        <a href="#sayHi" class="nav-link">Say hi!</a>
+                    </nav>
+                </header>
 
-                <!--Place logo below-->
-                <div id="header-logo">
-                    <img src="" alt="" id="header-img" hidden>
-                    <h1 id="logo">All you need is a fan.</h1>
-                </div>
-
-                <nav id="nav-bar">
-                    <a href="#about" class="nav-link">about</a>
-                    <a href="#" class="nav-link">buy</a>
-                    <a href="#sayHi" class="nav-link">Say hi!</a>
-                </nav>
-
-            
-            </header>
-
-            <section id="signUp" class="container">
-
-                <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" class="container">
-                    <label for="email">Wanna know all about these godly instruments?</label>
-                    <input  type="email" name="email" id="email" placeholder="tell me your email" required>
-                    <input class="submitBtn" type="submit" value="Done!" id="submit">
-                </form>
-
+                <section id="signUp" class="container">
+                    <form
+                        action="https://www.freecodecamp.com/email-submit"
+                        method="post"
+                        id="form"
+                        class="container"
+                    >
+                        <label for="email"
+                            >Wanna know all about these godly
+                            instruments?</label
+                        >
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="tell me your email"
+                            required
+                        />
+                        <input
+                            class="submitBtn"
+                            type="submit"
+                            value="Done!"
+                            id="submit"
+                        />
+                    </form>
+                </section>
             </section>
 
-        </section>
+            <section id="about" class="container">
+                <h1>Why should you buy from us?</h1>
+            </section>
 
-        <section id="about" class="container">
-            <h1>Why should you buy from us?</h1>
+            <section id="buy" class="container">
+                <h1>pick your hardware</h1>
 
-        </section>
+                <div class="buyItem">
+                    <h3 class="itemTitle">title</h3>
+                    <h2 class="itemPrice">$999</h2>
+                    <p class="itemDescription"></p>
+                </div>
+            </section>
 
-        <section id="buy" class="container">
+            <section id="sayHi" class="container"></section>
 
-            <h1>pick your hardware</h1>
-
-            <div class="buyItem">
-                <h3 class="itemTitle">title</h3>
-                <h2 class="itemPrice">$999</h2>
-                <p class="itemDescription"></p>
-            </div>
-
-        </section>
-
-        <section id="sayHi" class="container">
-
-
-        </section>
-
-        <footer>
-            <p>
-                Developed by <a href="#"><strong>Thalissona Almeida</strong></a>
-            </p>
-        </footer>
-    </main>
-</body>
+            <footer>
+                <p>
+                    Developed by
+                    <a href="#"><strong>Thalissona Almeida</strong></a>
+                </p>
+            </footer>
+        </main>
+    </body>
 </html>
