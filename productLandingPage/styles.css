@@ -32,9 +32,11 @@ html{
     font-size: 16px;
     font-family: var(--fontText);
     color: var(--textColor);
-    
-    
+    background-image: url(images/sala-amarela.jpg);
+    background-size: cover;
 }
+
+
 
 a{
     text-decoration: none;
@@ -42,7 +44,6 @@ a{
 }
 
 main{
-    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -51,6 +52,9 @@ main{
 }
 
 .wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #ffffff77;
     
 }
 
@@ -59,7 +63,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    
 }
 
 header{
