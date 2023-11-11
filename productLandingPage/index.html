@@ -7,50 +7,50 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+
+        <header id="header">
+            <!--Place logo below-->
+            <div id="header-logo">
+                <img src="" alt="" id="header-img" hidden />
+                <h1 id="logo">All you need is a fan.</h1>
+            </div>
+
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">about</a>
+                <a href="#buy" class="nav-link">buy</a>
+                <a href="#sayHi" class="nav-link">Say hi!</a>
+            </nav>
+        </header>
+        
         <main class="wrapper">
             <!-- Must insert video id="video" somewhere -->
 
-            <section class="container">
-                <header id="header">
-                    <!--Place logo below-->
-                    <div id="header-logo">
-                        <img src="" alt="" id="header-img" hidden />
-                        <h1 id="logo">All you need is a fan.</h1>
-                    </div>
-
-                    <nav id="nav-bar">
-                        <a href="#about" class="nav-link">about</a>
-                        <a href="#buy" class="nav-link">buy</a>
-                        <a href="#sayHi" class="nav-link">Say hi!</a>
-                    </nav>
-                </header>
-
-                <section id="signUp" class="container">
-                    <form
-                        action="https://www.freecodecamp.com/email-submit"
-                        method="post"
-                        id="form"
-                        class="container"
+            
+            <section id="signUp" class="container">
+                <form
+                    action="https://www.freecodecamp.com/email-submit"
+                    method="post"
+                    id="form"
+                    class="container"
+                >
+                    <label for="email"
+                        >Wanna know all about these godly
+                        instruments?</label
                     >
-                        <label for="email"
-                            >Wanna know all about these godly
-                            instruments?</label
-                        >
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="tell me your email"
-                            required
-                        />
-                        <input
-                            class="submitBtn"
-                            type="submit"
-                            value="Done!"
-                            id="submit"
-                        />
-                    </form>
-                </section>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="tell me your email"
+                        required
+                    />
+                    <input
+                        class="submitBtn"
+                        type="submit"
+                        value="Done!"
+                        id="submit"
+                    />
+                </form>
             </section>
 
             <section id="about" class="container">
@@ -75,13 +75,14 @@
                 </a>
 
             </section>
-
-            <footer>
-                <p>
-                    Developed by
-                    <a href="#"><strong>Thalissona Almeida</strong></a>
-                </p>
-            </footer>
+            
         </main>
+
+        <footer>
+            <p>
+                Developed by
+                <a href="#"><strong>Thalissona Almeida</strong></a>
+            </p>
+        </footer>
     </body>
 </html>

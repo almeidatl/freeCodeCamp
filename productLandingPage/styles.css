@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 :root{
+    
     /*Fontes*/
     --fontTitle: 'Poppins', sans-serif;
     --fontText: 'Roboto', sans-serif;
@@ -29,10 +30,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 html{
+    
     font-size: 16px;
     font-family: var(--fontText);
     color: var(--textColor);
-    background-image: url(images/sala-amarela.jpg);
+    background-image: url();
     background-size: cover;
 }
 
@@ -43,32 +45,31 @@ a{
     color: var(--textColor);
 }
 
-main{
+body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-image: url(images/modelo-portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center 30%;
 }
 
-.wrapper{
-    margin: 0 auto;
-    max-width: 900px;
-    background-color: #ffffff77;
-    
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 header{
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+main{
+
+}
+
+footer{
+
+}
+
