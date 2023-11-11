@@ -47,16 +47,12 @@ a{
 
 body{
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    
     
 }
 
-
 header{
-    height: 3rem;
+    height: 4rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -70,11 +66,25 @@ header a{
     color: var(--olivine);
 }
 
-main{
+#header-logo{
+    font-family: var(--fontTitle);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section{
+    width: 100%;
+    
 }
 
 footer{
-
+    width: 100%;
 }
 
